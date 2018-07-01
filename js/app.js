@@ -1,4 +1,4 @@
-// Enemies our player must avoid
+/* Enemies our player must avoid
 var Enemy = function() {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
@@ -23,7 +23,7 @@ Enemy.prototype.render = function() {
 
 // Now write your own player class
 // This class requires an update(), render() and
-// a handleInput() method.
+// a handleInput() method.*/
 
 
 // Now instantiate your objects.
