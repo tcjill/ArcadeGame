@@ -34,6 +34,9 @@ Enemy.prototype.render = function() {
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
+const player = new Player();
+const allEnemies = [...Array(3)].map((_,i)=> new Enemy(0,i+1));
+
 document.addEventListener('keyup', function(e) {
     var allowedKeys = {
         37: 'left',
