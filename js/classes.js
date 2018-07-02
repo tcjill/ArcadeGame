@@ -32,25 +32,40 @@ class Player extends Entity {
     constructor() {
         super();
         this.sprite += 'char-boy.png';
+        this.moving = false;
+        this.win = false;
+    }
+
+    update(dt) {
+        super.update();
+        if (this.isOutOfBoundsY && !this.moving && !this.win) {
+            alert("YouWin");
+            this.win = true;
+        }
+    }
+    render() {
+        super.render();
+        this.moving = false;
     }
 
     handleInput(input) {
         switch (input) {
-         case 'left':
-            this.x = this.x > 0 ? this.x - 1 : this.x;
-            break;
-        case 'up':
-             this.y = this.y > 0 ? this.y - 1 : this.y;
-            break;
-        case 'right':
-            this.x = this.x < 4 ? this.x + 1 : this.x;
-            break;
-        case 'down':
-             this.y = this.y < 5 ? this.y + 1 : this.y;
-            break;
-        default:
-            break;
+            case 'left':
+                this.x = this.x > 0 ? this.x - 1 : this.x;
+                break;
+            case 'up':
+                this.y = this.y > 0 ? this.y - 1 : this.y;
+                break;
+            case 'right':
+                this.x = this.x < 4 ? this.x + 1 : this.x;
+                break;
+            case 'down':
+                this.y = this.y < 5 ? this.y + 1 : this.y;
+                break;
+            default:
+                break;
         }
+        this.moving = true;
     }
     
 }
