@@ -79,6 +79,9 @@ class Enemy extends Entity {
 
     update(dt){
         super.update();
+        let time = Math.floor((Math.random() * 6) + 1 );
+        time = time * dt * 1;
+        this.x += time;
         if(this.isOutOfBoundsX){
             this.x = -1;
         }
