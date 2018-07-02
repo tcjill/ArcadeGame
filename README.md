@@ -1,6 +1,25 @@
 frontend-nanodegree-arcade-game
 ===============================
+This is my Udacity project number 3, the Classic Arcade game clone of Frogger.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Initial steps I took:
+Downloaded repository and starter code provided by Udacity.
+Created new Git repository for my code.
+Used Visual Studio Code and installed Beautify to cleanly create code.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+To play game:
+Open the Index HTML file on your computer.
+Using the arrow keys (Up, Down, Left, Right) on your keyboard, move your Cat Girl.
+Avoid the roaches! If they touch you, your character starts over at the bottom.
+Try and reach the top without touching a bug. When you reach the water safely you have won!
+Refresh the game to begin again.
+
+Resources and references:
+About P3 Rubric Udacity
+Rodrick's Webinar on Zoom
+Udacity provided starter code.
+Youtube Video of Frogger
+W3 Schools math.floor
+W3 Schools canvas
+
+
