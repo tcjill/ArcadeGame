@@ -15,11 +15,11 @@ Try and reach the top without touching a bug. When you reach the water safely yo
 Refresh the game to begin again.
 
 Resources and references:
-About P3 Rubric Udacity
-Rodrick's Webinar on Zoom
-Udacity provided starter code.
-Youtube Video of Frogger
-W3 Schools math.floor
+About P3 Rubric Udacity [https://www.youtube.com/watch?v=1YHkmEBznac]   
+Rodrick's Webinar on Zoom [https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000]   
+Udacity provided starter code.   
+Youtube Video of Frogger [https://www.youtube.com/watch?v=l9fO-YuWPSk&feature=youtu.be]   
+W3 Schools math.floor   
 W3 Schools canvas
 
 
